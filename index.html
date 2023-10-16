@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Jurassic Park</title>
+        <link 
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        />
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <style>
+            .custom-title {
+                font-family: "Roboto", sans-serif; 
+                color: #b21212;
+            }
+            .custom-body {
+                font-family: "Roboto", sans-serif; 
+                color: #000000;
+                text-align: justify;
+            }
+            .key-words {
+                color: #b21212; 
+            }
+            .image-size {
+                height: 230px;
+            }
+            .image-size-small {
+                height: 88px;
+            }
+            .btn-custom {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #d85555;
+                color: #ffffff;
+                border: none;
+                border-radius: 6px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s ease, color 0.3s ease; 
+            }
+            
+            .btn-custom:hover {
+                color: #681d1d;
+                text-decoration: none;  
+            }
+            
+            .btn-custom:active {
+                color: #681d1d;
+            }
+
+            .custom-textarea {
+                height: 60px; 
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" style="margin-top: 60px;">
+                <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+                    <img 
+                        src="https://1000marcas.net/wp-content/uploads/2020/01/Jurassic-Park-Logo-5.png"
+                        class="img-fluid"
+                    />
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="custom-title"><strong>Bienvenido a Jurassic Park</strong></h1>
+                    <p class="custom-body">¡Explora el asombroso mundo de los dinosaurios de Jurassic Park! Sumérgete 
+                    en una aventura prehistórica única mientras te adentras en un paisaje donde los dinosaurios caminan
+                    de nuevo. En el corazón de la <span class="key-words">Isla Nublar,</span> descubrirás criaturas que 
+                    una vez reinaron la Tierra, cuidadosamente traídas de vuelta a la vida gracias a la ingeniería 
+                    genética de vanguardia</p>
+                    <p class="custom-body">Nuestro parque ofrece experiencias emocionantes para toda la familia, desde 
+                    emocionantes recorridos en jeep que te llevarán a través de hábitats dinosaurios auténticos, hasta 
+                    encuentros cercanos con estas majestuosas bestias en nuestras instalaciones de observación segura. Ya
+                    sea que seas un amante de la ciencia, un aventurero en busca de emociones o simplemente un curioso
+                    ávido, Jurassic Park te invita a ser parte de esta asombrosa historia de la resurrección de los
+                    dinosaurios. ¡Bienvenido a una aventura que solo puedes encontrar aquí, en Jurassic Park!</p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-12">
+                    <h3 class="custom-title"><strong>Conoce nuestros planes de viaje...</strong></h3>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card">
+                        <img 
+                            src="https://images.pexels.com/photos/410858/pexels-photo-410858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                            alt="Imagen 1" 
+                            class="card-img-top image-size">
+                        <div class="card-body">
+                            <h2 class="custom-title"><strong>Paquete aventurero</strong></h2>
+                            <p class="custom-body"><strong>¡Aventura para todos!</strong></p>
+                            <p class="custom-body">Embárcate en un recorrido salvaje por la Isla Nublar en nuestro Jeep 
+                            todoterreno. Navega por los extensos hábitats de los dinosaurios y experimenta la emoción de 
+                            ver a estas criaturas majestuosas en su entorno natural.
+                            <p class="custom-body">¿Te atreves a explorar el parque después del anochecer? Únete a nosotros 
+                            para una caminata nocturna.</p>
+                            <div class="text-center mt-3">
+                                <a href="#" class="btn-custom" data-toggle="modal" data-target="#myModal">Conoce más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card">
+                        <img 
+                            src="https://images.pexels.com/photos/2886475/pexels-photo-2886475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                            alt="Imagen 2" 
+                            class="card-img-top image-size">
+                        <div class="card-body">
+                            <h2 class="custom-title"><strong>Paquete familiar</strong></h2>
+                            <p class="custom-body"><strong>¡Perfecto para todos!</strong></p>
+                            <p class="custom-body">Un espacio seguro donde los más pequeños pueden interactuar y aprender jugando. Armado con una cámara, toda la familia puede capturar momentos inolvidables 
+                            con los dinosaurios como fondo. </p>
+                            <p class="custom-body"> También sumérgete en una experiencia 4D que te transportará a la era prehistórica, 
+                            sintiendo la emoción de estar entre ellos. </p>
+                            <div class="text-center mt-3">
+                                <a href="#" class="btn-custom" data-toggle="modal" data-target="#myModal">Conoce más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card">
+                        <img 
+                            src="https://images.pexels.com/photos/410859/pexels-photo-410859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                            alt="Imagen 3" 
+                            class="card-img-top image-size">
+                        <div class="card-body">
+                            <h2 class="custom-title"><strong>Paquete científico</strong></h2>
+                            <p class="custom-body"><strong>¡Vamos a aprender!</strong></p>
+                            <p class="custom-body">Descubre el fascinante mundo de la ingeniería genética. 
+                            Acompaña a nuestros científicos en un recorrido exclusivo por los laboratorios, aprende de expertos 
+                            y entiende más sobre la historia y la biología de estas increíbles criaturas. </p>
+                            <p class="custom-body"> Participa en una excavación simulada y descubre fósiles de dinosaurio 
+                            con tus propias manos. </p>
+                            <div class="text-center mt-3">
+                                <a href="#" class="btn-custom" data-toggle="modal" data-target="#myModal">Conoce más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row mt-4"  style="margin-top: 20px;">
+                    <div class="col-12 col-md-6">
+                        <h3 class="custom-title"><strong>Conoce sobre nuestra isla...</strong></h3>
+                        <p class="custom-body">
+                            La Isla Nublar es un paraíso escondido en el océano, hogar de los dinosaurios más increíbles. 
+                            Con una rica biodiversidad y paisajes impresionantes, la isla es una maravilla en sí misma, y no 
+                            solo por sus habitantes prehistóricos. Desde montañas escarpadas hasta playas doradas, cada 
+                            rincón de la isla tiene algo especial que ofrecer a los visitantes.
+                        </p>
+                        <img 
+                            src="https://images.pexels.com/photos/733993/pexels-photo-733993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            class="img-fluid mt-3"
+                        />
+                    </div>
+                    <div class="col-12 col-md-6" style="padding-left: 90px;">
+                        <h3 class="custom-title"><strong>Lista de Dinosaurios:</strong></h3>
+                        <ol>
+                            <li>Tiranosaurio Rex </li>
+                            <li>Velociraptor </li>
+                            <li>Triceratops </li>
+                            <li>Stegosaurus </li>
+                            <li>Spinosaurus </li>
+                            <li>Apatosaurus </li>
+                            <li>Brachiosaurus </li>
+                            <li>Allosaurus </li>
+                            <li>Pterodáctilo </li>
+                            <li>Diplodocus </li>
+                            <li>Parasaurolophus </li>
+                            <li>Ankylosaurus </li>
+                            <li>Iguanodon </li>
+                            <li>Carnotaurus </li>
+                            <li>Gallimimus </li>
+                            <li>Compsognathus </li>
+                            <li>Archaeopteryx </li>
+                            <li>Microraptor </li>
+                            <li>Hadrosaurus </li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-12">
+                        <h3 class="custom-title"><strong>Mantente informado de nuevos planes</strong></h3>
+                        <p>Ingresa tu correo y déjanos un mensaje para recibir información sobre futuros planes y novedades.</p>
+                    </div>
+                    <form action="#" method="post" class="w-100">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label 
+                                        for="emailInput" 
+                                        class="custom-body">Correo electrónico:</label>
+                                    <input 
+                                        type="email" 
+                                        class="form-control custom-textarea" 
+                                        id="emailInput" 
+                                        placeholder="correo@ejemplo.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label 
+                                        for="commentInput" 
+                                        class="custom-body">Déjanos un mensaje:</label>
+                                    <textarea 
+                                        class="form-control custom-textarea" 
+                                        id="commentInput"
+                                        placeholder="Escribe tu comentario aquí..." required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center mt-3">
+                            <button type="submit" class="btn-custom">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="mt-5"></div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myModalLabel">Información Adicional</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Por favor, contáctanos a nuestra línea telefónica para poder tener más información (8014567).
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+    
+    
+    
+    
